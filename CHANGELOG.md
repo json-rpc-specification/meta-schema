@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/json-rpc-specification/meta-schema/compare/1.0.1...1.0.2) (2022-10-28)
+
+
+### Bug Fixes
+
+* use old python image ([a3bbd0d](https://github.com/json-rpc-specification/meta-schema/commit/a3bbd0d084e0b578b0ace00bd4d61ae3fd43e269))
+
 ## [1.0.1](https://github.com/json-rpc-specification/meta-schema/compare/1.0.0...1.0.1) (2022-10-28)
 
 
