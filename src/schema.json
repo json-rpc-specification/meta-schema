@@ -1,7 +1,7 @@
 {
   "$schema": "https://meta.json-schema.tools",
   "$id": "https://meta.jsonrpc.net/",
-  "title": "JSONRPCRequestOrResponse",
+  "title": "JSONRPC",
   "description": "Either a (possibly batch of) JSON-RPC request(s) and response(s)",
   "oneOf": [
     { "$ref": "#/definitions/JSONRPCRequest" },
