@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/json-rpc-specification/meta-schema/compare/1.0.0...1.0.1) (2022-10-28)
+
+
+### Bug Fixes
+
+* add missing descriptions ([9067e9b](https://github.com/json-rpc-specification/meta-schema/commit/9067e9be6163cab179e00e110e9616fa2b3836da))
+* proper python image ([a73e911](https://github.com/json-rpc-specification/meta-schema/commit/a73e911c850656cb9ced87c0136d4f4b40bbc343))
+* use python image during release ([d453211](https://github.com/json-rpc-specification/meta-schema/commit/d4532114a7a8b1aa17a11031085d1df869d619ef))
+
 # 1.0.0 (2022-10-28)
 
 
