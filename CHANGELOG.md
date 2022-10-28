@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/json-rpc-specification/meta-schema/compare/1.0.2...1.0.3) (2022-10-28)
+
+
+### Bug Fixes
+
+* update cloudfront distribution id ([cf705ac](https://github.com/json-rpc-specification/meta-schema/commit/cf705acd58965558b5b2577f100943675c115f8e))
+
 ## [1.0.2](https://github.com/json-rpc-specification/meta-schema/compare/1.0.1...1.0.2) (2022-10-28)
 
 
