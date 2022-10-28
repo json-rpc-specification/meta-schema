@@ -1,0 +1,37 @@
+{
+  "name": "@json-rpc-specification/meta-schema",
+  "version": "0.0.0-development",
+  "description": "JSON Schemas for JSON-RPC. Generated types in multiple languages",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/json-rpc-specification/meta-schema/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/json-rpc-specification/meta-schema.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "semantic-release --dry-run"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "schema.json"
+  ],
+  "author": "Zachary Belford <belfordz66@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@json-schema-tools/semantic-release-transpiler": "^1.6.14",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.6",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "semantic-release": "^19.0.5"
+  }
+}
