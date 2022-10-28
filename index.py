@@ -35,7 +35,8 @@ JSONRPCParamsByName = NewType("JSONRPCParamsByName", Mapping[Any, Any])
 """A Structured value that holds the parameter values to be used during the invocation of the method. This member MAY be omitted.
 """
 JSONRPCParams = NewType("JSONRPCParams", Union[JSONRPCParamsByPosition, JSONRPCParamsByName])
-
+"""A rpc call is represented by sending a Request object to a Server.
+"""
 class JSONRPCRequest(TypedDict):
     id: Optional[JSONRPCRequestId]
     jsonrpc: Optional[JSONRPCVersion]
@@ -50,7 +51,8 @@ JSONRPCErrorMessage = NewType("JSONRPCErrorMessage", str)
 """A Primitive or Structured value that contains additional information about the error. This may be omitted. The value of this member is defined by the Server (e.g. detailed error information, nested errors etc.).
 """
 JSONRPCErrorData = NewType("JSONRPCErrorData", Any)
-
+"""When a rpc call encounters an error, the Response Object MUST contain the error member with a value that is a Object.
+"""
 class JSONRPCError(TypedDict):
     code: Optional[JSONRPCErrorCode]
     message: Optional[JSONRPCErrorMessage]

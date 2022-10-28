@@ -58,6 +58,11 @@ export interface JSONRPCParamsByName { [key: string]: any; }
  *
  */
 export type JSONRPCParams = JSONRPCParamsByPosition | JSONRPCParamsByName;
+/**
+ *
+ * A rpc call is represented by sending a Request object to a Server.
+ *
+ */
 export interface JSONRPCRequest {
   id?: JSONRPCRequestId;
   jsonrpc: JSONRPCVersion;
@@ -83,6 +88,11 @@ export type JSONRPCErrorMessage = string;
  *
  */
 export type JSONRPCErrorData = any;
+/**
+ *
+ * When a rpc call encounters an error, the Response Object MUST contain the error member with a value that is a Object.
+ *
+ */
 export interface JSONRPCError {
   code?: JSONRPCErrorCode;
   message?: JSONRPCErrorMessage;

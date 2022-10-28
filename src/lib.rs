@@ -62,6 +62,10 @@ pub enum JSONRPCParams {
     JSONRPCParamsByPosition(JSONRPCParamsByPosition),
     JSONRPCParamsByName(JSONRPCParamsByName),
 }
+/// JSONRPCRequest
+///
+/// A rpc call is represented by sending a Request object to a Server.
+///
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, Builder, Default)]
 #[builder(setter(strip_option), default)]
 #[serde(default)]
@@ -88,6 +92,10 @@ pub type JSONRPCErrorMessage = String;
 /// A Primitive or Structured value that contains additional information about the error. This may be omitted. The value of this member is defined by the Server (e.g. detailed error information, nested errors etc.).
 ///
 pub type JSONRPCErrorData = serde_json::Value;
+/// JSONRPCError
+///
+/// When a rpc call encounters an error, the Response Object MUST contain the error member with a value that is a Object.
+///
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, Builder, Default)]
 #[builder(setter(strip_option), default)]
 #[serde(default)]
