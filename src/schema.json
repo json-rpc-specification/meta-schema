@@ -39,6 +39,7 @@
     },
     "JSONRPCRequest": {
       "title": "JSONRPCRequest",
+      "description": "A rpc call is represented by sending a Request object to a Server.",
       "type": "object",
       "required": [
         "jsonrpc",
@@ -97,6 +98,7 @@
         },
         "error": {
           "title": "JSONRPCError",
+          "description": "When a rpc call encounters an error, the Response Object MUST contain the error member with a value that is a Object.",
           "type": "object",
           "properties": {
             "code": {
