@@ -39,6 +39,8 @@ jobs:
 
   release:
     <<: *defaults
+    docker:
+      - image: cimg/python:2.7-stretch
     steps:
       - checkout
       - run:
