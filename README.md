@@ -4,6 +4,8 @@ This repo contains the JSON Schema meta-schema that corresponds to the various J
 
 From these JSON Schema, types for various languages are generated.
 
+meta schema is hosted here: https://meta.jsonrpc.net/
+
 ## Installing
 
 ### Typescript
