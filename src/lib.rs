@@ -139,7 +139,7 @@ pub type JSONRPCBatchRequest = Vec<JSONRPCRequest>;
 pub type JSONRPCBatchResponse = Vec<JSONRPCResponse>;
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq)]
 #[serde(untagged)]
-pub enum JSONRPC {
+pub enum JSONRPCTypes {
     JSONRPCRequest(JSONRPCRequest),
     JSONRPCResponse(JSONRPCResponse),
     JSONRPCBatchRequest(JSONRPCBatchRequest),

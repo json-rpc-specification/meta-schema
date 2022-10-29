@@ -1,7 +1,7 @@
 [package]
-name = "jsonrpctypes"
-version = "1.0.4"
-description = "Generated types based on the JSON-Schema for jsonrpc"
+name = "jsonrpc_types"
+version = "1.0.5"
+description = "Generated types based on the JSON-Schema for jsonrpc_types"
 license = "Apache-2.0"
 
 [dependencies]

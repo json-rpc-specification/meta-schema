@@ -75,4 +75,4 @@ JSONRPCBatchRequest = NewType("JSONRPCBatchRequest", List[JSONRPCRequest])
 JSONRPCBatchResponse = NewType("JSONRPCBatchResponse", List[JSONRPCResponse])
 """Either a (possibly batch of) JSON-RPC request(s) and response(s)
 """
-JSONRPC = NewType("JSONRPC", Union[JSONRPCRequest, JSONRPCResponse, JSONRPCBatchRequest, JSONRPCBatchResponse])
+JSONRPCTypes = NewType("JSONRPCTypes", Union[JSONRPCRequest, JSONRPCResponse, JSONRPCBatchRequest, JSONRPCBatchResponse])

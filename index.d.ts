@@ -134,4 +134,4 @@ export type JSONRPCBatchResponse = JSONRPCResponse[];
  * Either a (possibly batch of) JSON-RPC request(s) and response(s)
  *
  */
-export type JSONRPC = JSONRPCRequest | JSONRPCResponse | JSONRPCBatchRequest | JSONRPCBatchResponse;
+export type JSONRPCTypes = JSONRPCRequest | JSONRPCResponse | JSONRPCBatchRequest | JSONRPCBatchResponse;
