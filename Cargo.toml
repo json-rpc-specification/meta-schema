@@ -1,6 +1,6 @@
 [package]
 name = "jsonrpc"
-version = "1.0.3"
+version = "1.0.4"
 description = "Generated types based on the JSON-Schema for jsonrpc"
 license = "Apache-2.0"
 
