@@ -1,50 +1,29 @@
-# JSON Schema Meta Schema
+# JSON RPC JSON Schemas
 
-This repo contains the json schema meta schema and code to package it on npm, generate typings, etc.
+This repo contains the JSON Schema meta-schema that corresponds to the various JSON-RPC objects.
+
+From these JSON Schema, types for various languages are generated.
 
 ## Installing
 
 ### Typescript
 
-`npm install --save @json-schema-tools/meta-schema`
+`npm install --save @json-rpc-specification/meta-schema`
 
 ### Golang
 
-`go get github.com/json-schema-tools/meta-schema`
+`go get github.com/json-rpc-specification/meta-schema`
 
 
 ### Rust
 
-`cargo install json_schema`
+`cargo install jsonrpctypes`
 
 ## Using
 
 ### Typescript
 ```typescript
-import JSONSchema, { JSONSchemaObject, Properties, Items } from "@json-schema-tools/meta-schema"
-```
-
-### Rust
-
-#### From a string
-```rust
-let foo = r#"{
-    "title": "helloworld",
-    "type": "string"
-}"#;
-
-let as_json_schema: JSONSchemaObject = serde_json::from_str(foo).unwrap();
-```
-
-#### Using builder pattern
-```rust
-let schema = JSONSchemaObjectBuilder::default()
-    .title("foobar".to_string())
-    ._type(Type::SimpleTypes(SimpleTypes::String))
-    .build()
-    .unwrap();
-
-let as_str = serde_json::to_string(&schema).unwrap();
+import { JSONRPCRequest } from "@json-rpc-specification/meta-schema"
 ```
 
 ### Contributing
