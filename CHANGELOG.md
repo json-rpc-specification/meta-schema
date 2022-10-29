@@ -1,3 +1,11 @@
+## [1.0.5](https://github.com/json-rpc-specification/meta-schema/compare/1.0.4...1.0.5) (2022-10-29)
+
+
+### Bug Fixes
+
+* update readme ([9dbd349](https://github.com/json-rpc-specification/meta-schema/commit/9dbd349557db8a515cd74a6104b07b44ad947c49))
+* update readme more ([68b04fb](https://github.com/json-rpc-specification/meta-schema/commit/68b04fb4cb2c307346d76ab00a08e2de0004c768))
+
 ## [1.0.4](https://github.com/json-rpc-specification/meta-schema/compare/1.0.3...1.0.4) (2022-10-29)
 
 
