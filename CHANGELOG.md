@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/json-rpc-specification/meta-schema/compare/1.0.3...1.0.4) (2022-10-29)
+
+
+### Bug Fixes
+
+* rust doc output was broken with new lines for some reason ([6ba2271](https://github.com/json-rpc-specification/meta-schema/commit/6ba22718e9531c1b882b2f2ee0b92481dbc5449e))
+
 ## [1.0.3](https://github.com/json-rpc-specification/meta-schema/compare/1.0.2...1.0.3) (2022-10-28)
 
 
