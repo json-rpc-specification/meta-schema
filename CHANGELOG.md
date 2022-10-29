@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/json-rpc-specification/meta-schema/compare/1.0.5...1.0.6) (2022-10-29)
+
+
+### Bug Fixes
+
+* add link to deployed meta schema ([59983da](https://github.com/json-rpc-specification/meta-schema/commit/59983dac7fc76053665dff32f6dc31cc42268b4f))
+
 ## [1.0.5](https://github.com/json-rpc-specification/meta-schema/compare/1.0.4...1.0.5) (2022-10-29)
 
 
