@@ -44,7 +44,7 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run: npm install semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/github @semantic-release/npm @semantic-release/commit-analyzer @semantic-release/release-notes-generator
+      - run: npm install semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/github @semantic-release/npm @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/exec
       - run: git checkout .
       - run: ./node_modules/.bin/semantic-release
       - run:
