@@ -87,6 +87,14 @@
                 "id",
                 "jsonrpc"
             ],
+            "not": {
+              "title": "InvalidResponse",
+              "description": "Response MUST NOT have both result and error.",
+              "properties": {
+                "result": {},
+                "error": {}
+              }
+            },
             "properties": {
                 "id": {
                     "title": "JSONRPCRequestId",
