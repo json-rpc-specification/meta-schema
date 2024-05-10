@@ -1,3 +1,13 @@
+## [1.0.7](https://github.com/json-rpc-specification/meta-schema/compare/1.0.6...1.0.7) (2024-05-10)
+
+
+### Bug Fixes
+
+* add exec to sem rel ([e97c405](https://github.com/json-rpc-specification/meta-schema/commit/e97c405b199858e90b092c02c0b628dd791c400c))
+* bump deps ([0b23d66](https://github.com/json-rpc-specification/meta-schema/commit/0b23d663847d2e241314f19dacc58e1dca927673))
+* circle ci deploy was wrong ([d97cca9](https://github.com/json-rpc-specification/meta-schema/commit/d97cca9b9d83785beb3b09b8a91cd3a89f14037e))
+* update node in ci ([b6d5978](https://github.com/json-rpc-specification/meta-schema/commit/b6d59787228f244f55a5c436b2c721ceb054209a))
+
 ## [1.0.6](https://github.com/json-rpc-specification/meta-schema/compare/1.0.5...1.0.6) (2022-10-29)
 
 
