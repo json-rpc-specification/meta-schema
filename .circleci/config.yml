@@ -40,21 +40,16 @@ jobs:
   release:
     <<: *defaults
     docker:
-      - image: circleci/python:2.7-stretch
+      - image: cimg/python:3.11.1-browsers
     steps:
       - checkout
-      - run:
-          name: "Update Node.js and npm"
-          command: |
-            curl -sSL "https://nodejs.org/dist/v16.17.0/node-v16.17.0-linux-x64.tar.xz" | sudo tar --strip-components=2 -xJ -C /usr/local/bin/ node-v16.17.0-linux-x64/bin/node
-            curl https://www.npmjs.com/install.sh | sudo bash
       - run: npm install
-      - run: npm install @json-schema-tools/semantic-release-transpiler @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/exec @semantic-release/git @semantic-release/github @semantic-release/npm @semantic-release/release-notes-generator semantic-release
+      - run: npm install semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/github @semantic-release/npm @semantic-release/commit-analyzer @semantic-release/release-notes-generator
       - run: git checkout .
       - run: ./node_modules/.bin/semantic-release
       - run:
           name: Install awscli
-          command: sudo pip install awscli
+          command: pip install awscli
       - run:
           name: Deploy to S3
           command: aws s3 mv src/schema.json s3://meta.jsonrpc.net/latest.json
